@@ -1,0 +1,7 @@
+- domain_global.yml in /domain
+	Manually picking the customer from the .csv file, so changing the customer_id to match for Edith.
+
+- patterns.yml in /domain
+	Changed the initial response from the bot to match text on the image.
+
+- 

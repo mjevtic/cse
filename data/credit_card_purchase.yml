@@ -1,0 +1,21 @@
+flows:
+  credit_card_purchase:
+    description: Flow that will help the user to buy a credit card
+    steps:
+      - collect: credit_card_type
+        ask_before_filling: True
+      - collect: delivery_type
+        ask_before_filling: True
+      - collect: address
+        ask_before_filling: True
+      - action: utter_confirm_information
+      - collect: confirm_recap
+        ask_before_filling: True
+        next:
+          - if: slots.confirm_recap
+            then:
+              - action: utter_thank_you
+                next: "END"
+          - else:
+            - action: utter_more_help_needed
+              next: "END"
