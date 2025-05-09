@@ -47,7 +47,7 @@ responses:
   utter_ask_address:
     - text: |
         Understood!
-        Can you provide me your address please?
+        Can you provide me your full address please?
 
   utter_confirm_information:
     - text: |
