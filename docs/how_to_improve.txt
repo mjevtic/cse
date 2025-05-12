@@ -1,4 +1,7 @@
 - When a credit card is purchased, those information to be added into the database with the corresponding user.
 - If the end-user select option, firstly, to buy a credit card, to import that user information into the database, and then ordered credit card details.
+- To make sure that the environment is secure, since credit Card data might be involved.
+- Communicaton to be end-to-end encrypted.
 - Database to be connected, and not Excel file.
-- 
+- Figure out some backup, fallback mechanism if the credit card purchase fails.
+- Once the user receive a credit card, another bot should be set for credit card activation process and PIN setup.
