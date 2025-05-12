@@ -1,0 +1,4 @@
+- When a credit card is purchased, those information to be added into the database with the corresponding user.
+- If the end-user select option, firstly, to buy a credit card, to import that user information into the database, and then ordered credit card details.
+- Database to be connected, and not Excel file.
+- 
